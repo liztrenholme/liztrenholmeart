@@ -50,13 +50,6 @@ a:hover {
 	height: 5%;
 }
 
-.fa-linkedin {
-	float: left;
-	background: #007bb5;
-	color: white;
-	border-radius: .5;
-}
-
 /* Resize header bar and logo when viewing from mobile device */
 @media only screen and (max-width: 481px) {
 	#header {
