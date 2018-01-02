@@ -50,7 +50,7 @@ a:hover {
 	height: 5%;
 }
 
-/* Resize header bar and logo when viewing from mobile device */
+/* Resize header bar and logo and remove brushes bg pic when viewing from mobile device */
 @media only screen and (max-width: 481px) {
 	#header {
 		width: 100%;
@@ -63,6 +63,11 @@ a:hover {
   		width: 100%;
   		padding: 1px 1px 1px 1px;
   		margin: 1% 1% 1% 1%;
+  }
+}
+@media only screen and (max-width: 481px) {
+	body {
+  		background-image: none;
   }
 }
 
