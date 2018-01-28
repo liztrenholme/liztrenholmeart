@@ -9,13 +9,27 @@ body {
 }
 
 /* Navigation bar */
-nav {
-	text-decoration: none;
-	color: gray;
-	position: 50%;
+.navig {
+  position: relative;
+  left: 33%;
+  right: 33%;
 }
 
-/* Make the limks look cool */
+ul {
+	list-style: none;
+	color: gray;
+  display: inline-flex;
+  padding: 0 20px;
+}
+
+li {
+  padding: 0 20px;
+  text-align: center;
+  right: auto;
+  left: auto;
+}
+
+/* Make the links look cool */
 a:link {
 	color: gray;
 	text-decoration: none;
@@ -25,11 +39,11 @@ a:visited {
 	text-decoration: none;
 	}
 a:hover {
-	color: white;
+	color: #D4C2C4;
 	text-decoration: none;
 	}
 
-#header {
+.heading {
 	background-color: #D4C2C4;
 	background-image: url("linen.png");
 	background-repeat: repeat-x;
@@ -50,9 +64,29 @@ a:hover {
 	height: 5%;
 }
 
-/* Resize header bar and logo and remove brushes bg pic when viewing from mobile device */
+/* Resize nav and header bars, logo and remove brushes bg pic when viewing from mobile device */
 @media only screen and (max-width: 481px) {
-	#header {
+  .navig {
+    width: 100%;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    padding: 2% 4% 1% 1%;
+    margin: 1% 1%;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  li {
+    padding: 0 8px;
+    text-align: center;
+    right: auto;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+	.heading {
 		width: 100%;
 		padding: 2% 4% 1% 1%;
 		margin: 1% 5% 5% 1%;
