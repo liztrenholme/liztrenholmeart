@@ -1,6 +1,6 @@
 body {
 	background-color: #FFFFFF;
-	background-image: url("brushes.jpg");
+	background-image: url("../images/brushes.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 100% 100%;  
@@ -31,7 +31,7 @@ a:hover {
 
 #header {
 	background-color: #D4C2C4;
-	background-image: url("linen.png");
+	background-image: url("../images/linen.png");
 	background-blend-mode: soft-light;
 	color: gray;
 	text-align: right;
@@ -49,11 +49,11 @@ a:hover {
 	height: 5%;
 }
 
-#bio {
+.bio {
+	background-image: url("../images/linen.png");
 	background-color: #D4C2C4;
-	background-image: url("linen.png");
-	background-repeat: repeat;
 	background-blend-mode: soft-light;
+	background-repeat: repeat;
 	color: #666666;
 	float: none;
 	text-align: left;
@@ -96,9 +96,9 @@ p {
 }
 @media only screen and (max-width: 481px) {
 	body {
-  		background-image: url(brushes.jpg);
+  		background-image: url(../images/brushes.jpg);
 		background-position: 100% 100%;
-		background-size: 100%
+		background-size: 100%;
   }
 }
 @media only screen and (max-width: 481px) {

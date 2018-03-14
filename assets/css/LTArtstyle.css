@@ -1,6 +1,6 @@
 body {
-	background-color: #FFFFFF;
-	background-image: url("brushes.jpg");
+  background-color: #FFFFFF;
+  background-image: url("../images/brushes.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 100% 100%;  
@@ -16,7 +16,7 @@ body {
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 	color: gray;
   display: inline-flex;
   padding: 0 20px;
@@ -43,20 +43,34 @@ a:hover {
 	text-decoration: none;
 	}
 
-.heading {
+header {
 	background-color: #D4C2C4;
-	background-image: url("linen.png");
+	background-image: url("../images/linen.png");
 	background-repeat: repeat-x;
 	background-blend-mode: soft-light;
 	color: gray;
 	text-align: right;
 	float: none;
 	width: 100%;
-    padding: 25px 100px 25px 5px;
-    margin: 5px 25px 25px 5px;
+  padding: 25px 100px 25px 5px;
+  margin: 5px 25px 25px 5px;
 	border-color: 20px white;
 	border-radius: 0%;
 	opacity: .6;
+}
+
+.bio {
+  background-color: #D4C2C4;
+  background-image: url("../images/linen.png");
+  background-repeat: repeat;
+  background-blend-mode: soft-light;
+  color: #666666;
+  float: none;
+  text-align: left;
+  width: 65%;
+  opacity: .85;
+  padding: 50px 50px 50px 50px;
+  margin: 60px 60px 60px 06px;
 }
 
 .logo {
