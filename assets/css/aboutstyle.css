@@ -13,6 +13,7 @@ nav {
 	text-decoration: none;
 	color: gray;
 	position: 50%;
+	font-size: 110%;
 }
 
 /* Make the limks look cool */
@@ -64,7 +65,7 @@ a:hover {
 }
 
 p {
-	background-color: white;
+	/*background-color: white;*/
 	padding: 10px 10px 10px 10px;
 	margin: 15px 15px 15px 15px;
 }
