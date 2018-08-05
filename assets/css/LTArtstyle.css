@@ -61,7 +61,7 @@ header {
 	opacity: .6;
 }
 
-p {
+.bio-blurb {
   color: black;
   opacity: .8;
   background-color: white;
@@ -97,6 +97,37 @@ p {
 .logo {
 	width: 35%;
 	height: 5%;
+}
+
+.hear {
+  text-align: center;
+  color: black;	
+  /* opacity: .8; */
+  margin: 1%;
+}
+
+input {
+  margin: 2%;
+  display: block;
+  width: 30%;
+}
+
+input.submit {
+  background-color: gray;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 110%;
+}
+
+.submit:hover {
+	color: #717171;
+	background-color: #D4C2C4;
+	}
+
+textarea {
+  width: 30%;
+  display: block;
+  border: darkgray;
 }
 
 /* Resize nav and header bars, logo and remove brushes bg pic when viewing from mobile device */
