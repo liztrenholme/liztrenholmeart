@@ -110,7 +110,7 @@ header {
   align-content: center;
   width: 100%;
   /* margin: 10% 5%; */
-  border: 1px solid darkgrey;
+  /* border: 1px solid darkgrey; */
 }
 
 input, textarea {
@@ -163,26 +163,6 @@ input.submit {
     text-align: center;
     right: auto;
     left: auto;
-  }
-}
-
-@media only screen and (max-width: 481px) {
-	.heading {
-		width: 100%;
-		padding: 2% 4% 1% 1%;
-		margin: 1% 5% 5% 1%;
-	}
-}
-@media only screen and (max-width: 481px) {
-	.logo {
-  		width: 100%;
-  		padding: 1px 1px 1px 1px;
-  		margin: 1% 1% 1% 1%;
-  }
-}
-@media only screen and (max-width: 481px) {
-	body {
-  		background-image: none;
   }
 }
 
@@ -274,4 +254,33 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 10px}
+}
+
+@media only screen and (max-width: 800px) {
+  input, textarea {
+    margin: 1%;
+    display: block;
+    width: 70%;
+    font-size: 120%;
+    border: 1px solid darkgray;
+  }
+}
+@media only screen and (max-width: 800px) {
+	.heading {
+		width: 100%;
+		padding: 2% 4% 1% 1%;
+		margin: 1% 5% 5% 1%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.logo {
+  		width: 100%;
+  		padding: 1px 1px 1px 1px;
+  		margin: 1% 1% 1% 1%;
+  }
+}
+@media only screen and (max-width: 481px) {
+	body {
+  		background-image: none;
+  }
 }
