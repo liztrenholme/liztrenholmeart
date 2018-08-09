@@ -101,15 +101,30 @@ header {
 
 .hear {
   text-align: center;
-  color: black;	
+  color: rgb(73, 71, 71);	
   /* opacity: .8; */
   margin: 1%;
 }
 
-input {
+.contactform {
+  align-content: center;
+  width: 100%;
+  /* margin: 10% 5%; */
+  border: 1px solid darkgrey;
+}
+
+input, textarea {
   margin: 2%;
   display: block;
   width: 30%;
+  font-size: 120%;
+  border: 1px solid darkgray;
+}
+
+input:focus, textarea:focus {
+  background-color: rgb(245, 227, 230);
+  color: #5e5e5e;
+  border: 3px solid #D4C2C4;
 }
 
 input.submit {
@@ -124,11 +139,11 @@ input.submit {
 	background-color: #D4C2C4;
 	}
 
-textarea {
+/* textarea {
   width: 30%;
-  display: block;
+  /* display: block; 
   border: darkgray;
-}
+} */
 
 /* Resize nav and header bars, logo and remove brushes bg pic when viewing from mobile device */
 @media only screen and (max-width: 481px) {
