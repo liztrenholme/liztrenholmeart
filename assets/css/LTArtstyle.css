@@ -145,27 +145,6 @@ input.submit {
   border: darkgray;
 } */
 
-/* Resize nav and header bars, logo and remove brushes bg pic when viewing from mobile device */
-@media only screen and (max-width: 481px) {
-  .navig {
-    width: 100%;
-    position: relative;
-    left: 1%;
-    right: 1%;
-    padding: 2% 4% 1% 1%;
-    margin: 1% 1%;
-  }
-}
-
-@media only screen and (max-width: 481px) {
-  li {
-    padding: 0 8px;
-    text-align: center;
-    right: auto;
-    left: auto;
-  }
-}
-
 * {box-sizing: border-box}
 body {font-family: Helvetica, sans-serif; margin:0}
 .mySlides {display: none}
@@ -254,6 +233,27 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 10px}
+}
+
+/* Resize nav and header bars, logo and remove brushes bg pic when viewing from mobile device */
+@media only screen and (max-width: 800px) {
+  .navig {
+    width: 100%;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    padding: 2% 4% 1% 1%;
+    margin: 1% 1%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  li {
+    padding: 0 8px;
+    text-align: center;
+    right: auto;
+    left: auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
