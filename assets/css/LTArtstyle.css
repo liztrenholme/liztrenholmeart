@@ -253,6 +253,10 @@ img {vertical-align: middle;}
   .bio {
     width: 100%;
     margin: 8px;
+    background-image: none;
+    background-color: #bababa;
+    padding: 1px;
+    margin: 2px;
   }
   .bio-pic {
     width: 100%;
